@@ -2,8 +2,9 @@
 Manga Downloader
 
 Pre-requisites
-1. Requests
-2. Beautifulsoup4
+1. Python 3
+2. Requests
+3. Beautifulsoup4
 
 Download Manga from https://manganelo.com/
 
