@@ -15,3 +15,5 @@ Enter Manga Title: Folder name - "without special character"
 Offset: 0 - "download all / or number of chapters to skip."
 
 Note: Downloading starts from lastest chapter to the first chapter. so offset works from xxx > 1st chapter.
+
+Download Application here: https://drive.google.com/drive/folders/1wFo4-JXj97THWdQGF2iUFOgQWxAiiY9a
