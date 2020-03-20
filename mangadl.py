@@ -44,8 +44,8 @@ def initDl():
             chaptetTitle = urls.rsplit('/', 1)[-1]
             
             
-            if not os.path.exists('../../../downloads/' + str(MyMangaTitle) + '/' + chaptetTitle):
-                os.makedirs('../../../downloads/' + str(MyMangaTitle) + '/' + chaptetTitle)
+            if not os.path.exists('downloads/' + str(MyMangaTitle) + '/' + chaptetTitle):
+                os.makedirs('downloads/' + str(MyMangaTitle) + '/' + chaptetTitle)
 
             page = requests.get(urls)
 
@@ -63,7 +63,7 @@ def initDl():
                
                 number = counter
                 r = requests.get(src)
-                with open('../../../downloads/' + str(MyMangaTitle) + '/' + chaptetTitle + '/' +str(number) +".jpg", "wb") as code:
+                with open('downloads/' + str(MyMangaTitle) + '/' + chaptetTitle + '/' +str(number) +".jpg", "wb") as code:
                     code.write(r.content)
                 print ("Downloading: " + src)
        
